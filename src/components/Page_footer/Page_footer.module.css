@@ -1,0 +1,11 @@
+.footer {
+    grid-area: f;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: space-around;
+  }
+
+.item {
+    color:whitesmoke;
+
+}
