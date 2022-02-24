@@ -1,17 +1,17 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import s from './Header.module.css';
 
 const Header = () => {
     return (
-        <div className={s.header}>
-            <header>
-                <div>
+            <header className={s.header}>
+                <nav className={s.item}>
                     <span> Table Store </span>
-                    <span> Главная </span>
+                    <NavLink to='/'> Главная </NavLink>
+                    <NavLink to='/table'> столы </NavLink>
                     <span> Корзина </span>
-                </div>
+                </nav>
             </header>
-        </div>
     )
 }
 

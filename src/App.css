@@ -6,6 +6,7 @@
   "f f";
     grid-template-rows: 50px 1fr 160px;
     grid-template-columns: 1fr 2fr;
+    row-gap: 15px;
 }
 
 .app-wrapper-content {

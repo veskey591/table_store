@@ -13,8 +13,8 @@ const App = () => {
         <Page_footer />
         <div className='app-wrapper-content'>
           <Routes>
-            <Route path="/home" element={<Home_page />} />
-            <Route path="/home" element={<Page_content />} />
+            <Route path="/" element={<Home_page />} />
+            <Route path="/table" element={<Page_content />} />
           </Routes>
         </div>
       </div>

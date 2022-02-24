@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import s from './Page_footer.module.css';
 
 const Page_footer = () => {
@@ -14,7 +15,7 @@ const Page_footer = () => {
                 способы оплаты
             </div>
             <div className={s.item}>
-                <a href='contacts'> контакты </a>
+                <NavLink to='/contacts'> контакты </NavLink>
             </div>
         </footer>
     )

@@ -1,4 +1,16 @@
 .header {
     grid-area: h;
     background-color: aquamarine;
-  }
+    border: 1px solid black;
+}
+
+.item {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item a {
+  color: black;
+  text-decoration: none;
+}

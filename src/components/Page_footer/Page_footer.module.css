@@ -7,5 +7,10 @@
 
 .item {
     color:whitesmoke;
+  padding: 10px;
+}
 
+.item a {
+  color: whitesmoke;
+  text-decoration: none;
 }
