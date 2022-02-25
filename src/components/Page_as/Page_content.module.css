@@ -26,23 +26,27 @@
 }
 
 .price{
-
-
     font-size: x-large;
+    font-weight: 600;
 }
 
 .tname{
     padding: 5px;
 }
 .moreinfo{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-items: center;
     font-size: x-large;
     border: 1px solid #666;
 }
+.moreinfo a{
+    text-decoration: none;
+    color: black;
+}
 
 .cardsecondcomponent{
-    display: flex;
-    flex-direction: column;
-
+    padding-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 32px;
 }
