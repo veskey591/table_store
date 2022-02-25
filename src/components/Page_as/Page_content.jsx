@@ -27,12 +27,12 @@ const PageItem = (props) => {
 
 const Page_content = (props) => {
     const tableData = [
-        { id: "1", name: "стол из дуба", price: "50000 руб", imag: "https://cs5.livemaster.ru/storage/4e/06/4fe48eb83c2ea619e2e5454b83mw--dlya-doma-i-interera-stoly-iz-slebov-primorskogo-duba-s-zhivy.jpg" },
-        { id: "2", name: "стол из ясеня", price: "42600 руб", imag: "https://cs1.livemaster.ru/storage/04/df/49440fdf76506ac832bb9317e364.jpg" },
-        { id: "3", name: "стол из ореха", price: "87500 руб", imag: "https://cs1.livemaster.ru/storage/16/37/3dcd8f86361d4b41efe3549c5coe.jpg" },
-        { id: "4", name: "стол из дерева саур", price: "290000 руб", imag: "https://cs1.livemaster.ru/storage/4f/82/aa03ad4761ad4223377e4569475q.jpg" },
-        { id: "5", name: "стол из лиственницы", price: "42600 руб", imag: "https://cs5.livemaster.ru/storage/47/35/0d29a9c64273fddd8fc7f740b2ln.jpg" },
-        { id: "6", name: "стол из дуба", price: "25500 руб", imag: "https://cs5.livemaster.ru/storage/e8/8f/4168a2699bca00e049a4248ef6a7.jpg" },
+        { id: "1", name: "Стол из дуба", price: "115 000 руб", imag: "https://cs2.livemaster.ru/storage/35/f7/d3e10b16abff20790964ad3945rz.jpg" },
+        { id: "2", name: "Стол из ясеня", price: "42 600 руб", imag: "https://cs1.livemaster.ru/storage/65/70/758c2ecfa6fc96f0a76274335ei3.jpg" },
+        { id: "3", name: "Стол из массива ореха", price: "87 500 руб", imag: "https://cs1.livemaster.ru/storage/16/37/3dcd8f86361d4b41efe3549c5coe.jpg" },
+        { id: "4", name: "Стол из дерева саур", price: "290 000 руб", imag: "https://cs1.livemaster.ru/storage/4f/82/aa03ad4761ad4223377e4569475q.jpg" },
+        { id: "5", name: "Стол из лиственницы", price: "42 600 руб", imag: "https://cs5.livemaster.ru/storage/47/35/0d29a9c64273fddd8fc7f740b2ln.jpg" },
+        { id: "6", name: "Стол из дуба", price: "44 000 руб", imag: "https://cs1.livemaster.ru/storage/cf/25/e6c7a7c7ddcbbe1fadaa9d59ddt6.jpg" },
     ]
     return (
         <div>

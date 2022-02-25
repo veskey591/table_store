@@ -1,0 +1,31 @@
+.pagewrapper {
+    display: grid;
+    grid-template-rows: 50px 600px 200px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 60px;
+    column-gap: 10%;
+}
+
+.name {
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.box {
+    
+}
+
+.box img{
+    width: 720px;
+    height: 550px;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.characteristic{
+    color: #666;
+}
+
