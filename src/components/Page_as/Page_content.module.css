@@ -9,3 +9,40 @@
     justify-items: center;
     row-gap: 25px;
 }
+
+.card{
+    width: 260px;
+    height: 350px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px #666;
+    padding: 25px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.cardbox img{
+    width: 260px ;
+    height: 160px;
+}
+
+.price{
+
+
+    font-size: x-large;
+}
+
+.tname{
+    padding: 5px;
+}
+.moreinfo{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    border: 1px solid #666;
+}
+
+.cardsecondcomponent{
+    display: flex;
+    flex-direction: column;
+
+}
