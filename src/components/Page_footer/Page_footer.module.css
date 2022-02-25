@@ -6,11 +6,17 @@
   }
 
 .item {
-    color:whitesmoke;
+  color:whitesmoke;
   padding: 10px;
+  font-weight: 400;
 }
 
 .item a {
   color: whitesmoke;
   text-decoration: none;
+}
+
+.items{
+  padding-top: 5px;
+  color: #666;
 }

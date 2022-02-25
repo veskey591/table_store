@@ -8,7 +8,7 @@ const Header = () => {
                 <nav className={s.item}>
                     <span> Table Store </span>
                     <NavLink to='/'> Главная </NavLink>
-                    <NavLink to='/table'> столы </NavLink>
+                    <NavLink to='/table'> Столы </NavLink>
                     <span> Корзина </span>
                 </nav>
             </header>

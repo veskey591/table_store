@@ -1,0 +1,16 @@
+.homewrapper{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 60px 1fr;
+justify-items: center;
+}
+
+.item{
+    font-size:20px;
+}
+
+.imgbox img {
+    width: 600px;
+    box-shadow: 1px 1px 1px 1px #666;
+}
+
